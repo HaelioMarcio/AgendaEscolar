@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Agenda</a>
+                    <a href="{{url('agenda')}}">Agenda</a>
                     
                 </div>
             </div>

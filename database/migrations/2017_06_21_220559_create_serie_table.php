@@ -19,6 +19,7 @@ class CreateSerieTable extends Migration
             $table->string('busca');
             $table->string('turno');
             $table->integer('professor_id');
+            $table->timestamps();
         });
     }
 

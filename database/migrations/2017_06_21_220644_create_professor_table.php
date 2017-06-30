@@ -18,6 +18,7 @@ class CreateProfessorTable extends Migration
             $table->string('nome');
             $table->string('busca');
             $table->string('disciplina');
+            $table->timestamps();
         });
     }
 

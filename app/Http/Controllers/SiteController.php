@@ -11,6 +11,11 @@ class SiteController extends Controller
 	public function agenda(){
 		return view('agenda');
 	}
+
+	public function login(){
+		return view('login');
+	}
+	
     public function index(){
     	
     	$message = [

@@ -18,6 +18,7 @@ class CreateAgendaTable extends Migration
             $table->text('descricao');
             $table->timestamp('data');
             $table->integer('serie_id');
+            $table->timestamps();
         });
     }
     /**
